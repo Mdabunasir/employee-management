@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Employee Management</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<style>
+
+html,body{
+
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+
+}
+
+
+body{
+
+    background:linear-gradient(135deg,#e3f2fd,#f8f9fa);
+
+    font-family:Arial,sans-serif;
+
+}
+
+
+
+/* Main Box */
+
+.box{
+
+    width:100%;
+
+    min-height:100vh;
+
+    background:white;
+
+    padding:25px 20px;
+
+    text-align:center;
+
+}
+
+
+
+
+
+/* Desktop */
+
+@media(min-width:768px){
+
+.box{
+
+    width:360px;
+
+    min-height:auto;
+
+    margin:30px auto;
+
+    padding:30px 25px;
+
+    border-radius:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+}
+
+
+
+
+
+
+/* Logo */
+
+.logo{
+
+    font-size:75px;
+
+    color:#1565c0;
+
+    margin-top:10px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+
+
+/* Title */
+
+
+.title{
+
+    font-size:26px;
+
+    font-weight:bold;
+
+    color:#1565c0;
+
+    white-space:nowrap;
+
+    margin-bottom:30px;
+
+
+    border:2px solid white;
+
+    border-radius:15px;
+
+    padding:10px;
+
+    background:white;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+}
+
+
+
+
+
+
+
+/* Button */
+
+
+.btn-menu{
+
+    width:100%;
+
+    padding:18px;
+
+    margin:12px 0;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+}
+
+
+
+.btn-menu:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+
+.icon{
+
+    font-size:28px;
+
+    margin-right:10px;
+
+}
+
+
+
+
+
+
+
+.footer{
+
+    margin-top:35px;
+
+    color:#888;
+
+    font-size:14px;
+
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+
+.title{
+
+    font-size:22px;
+
+}
+
+
+.btn-menu{
+
+    font-size:18px;
+
+    padding:15px;
+
+}
+
+
+
+.logo{
+
+    font-size:65px;
+
+}
+
+
+}
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+<div class="box">
+
+
+
+
+
+
+<!-- Logo -->
+
+
+<div class="logo">
+
+<i class="bi bi-building"></i>
+
+</div>
+
+
+
+
+
+
+<!-- Title -->
+
+
+<div class="title">
+
+Employee Management
+
+</div>
+
+
+
+
+
+
+
+
+
+<a href="/new_entry" class="btn btn-primary btn-menu">
+
+
+<span class="icon">
+
+<i class="bi bi-person-plus-fill"></i>
+
+</span>
+
+
+New Entry
+
+
+</a>
+
+
+
+
+
+
+
+<a href="/employee" class="btn btn-success btn-menu">
+
+
+<span class="icon">
+
+<i class="bi bi-people-fill"></i>
+
+</span>
+
+
+Posting Work
+
+
+</a>
+
+
+
+
+
+
+
+<a href="/report" class="btn btn-warning btn-menu">
+
+
+<span class="icon">
+
+<i class="bi bi-bar-chart-fill"></i>
+
+</span>
+
+
+Report
+
+
+</a>
+
+
+
+
+
+
+
+<div class="footer">
+
+@developer by Md Abu Nasir
+
+</div>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
